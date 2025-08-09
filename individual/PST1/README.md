@@ -21,10 +21,24 @@ Parts:
   Fragment 4 (Main Application)
     -Runs the main interactive menu for the receptionist
 
+
 How to use?
+
 1. To register a new student, enter '1'. Enter your name, and the instrument to enrol in.
 2. To enrol existing student, enter '2'. Enter your ID, and the instrument you want to enrol in.
 3. To look up a student or a teacher, enter '3'. Enter thier name, or specialize instrument (teacher only).
 4. To look for a list of students (Admin Only), enter '4'.
 5. To look for a list of teachers (Admin Only), enter '5'.
 6. To exit the program press 'q'
+
+
+Design
+
+An easy to use program which allow the school to store data or students and teachers. This program also allow new or existing students to enrol in the course.
+
+
+Issues
+
+This design has a few logical errors. For instance, it allow users to input anything in their instrument erolment.
+E.g. Front Desk: Successfully registered 'qi' and enrolled them in 'HI'.
+
